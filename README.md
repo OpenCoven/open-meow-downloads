@@ -3,7 +3,7 @@
 > The notch becomes a workstation.
 > A native macOS AI shell that lives where your cursor already does.
 
-**OpenMeow** puts ambient AI in the one place every pro looks at all day — the notch of your MacBook Pro. Hit `ctrl-⌘` from anywhere and a native shell drops out of the notch: ask a question and the answer streams inline, or hand a task to a browser agent and watch it drive real Chromium against the live web. No tab switch. No sidebar. No Electron.
+**OpenMeow** puts ambient AI in the one place every pro looks at all day — the notch of your MacBook Pro. Hit `⌃⌘` from anywhere and a native shell drops out of the notch: ask a question and the answer streams inline, or hand a task to a browser agent and watch it drive real Chromium against the live web. No tab switch. No sidebar. No Electron.
 
 This repo is the **public download channel** for OpenMeow binaries. Source code lives in a separate private repository.
 
@@ -38,7 +38,7 @@ Browse all past versions → [Releases](https://github.com/OpenSorceryAI/open-me
 1. **Download** the DMG from the link above.
 2. **Open** it and drag **OpenMeow** into `/Applications`.
 3. **Launch** from Applications. Grant permission prompts on first run:
-   - **Accessibility** — required for the `ctrl-⌘` global shortcut to work system-wide.
+   - **Accessibility** — required for the `⌃⌘` global shortcut to work system-wide.
    - **Automation** — for browser agent tasks.
 4. **Configure the gateway** — open **Settings → Gateway** and paste your OpenClaw gateway URL + token. Without a gateway configured, OpenMeow has no model access and agent runs will fail.
 
@@ -51,7 +51,7 @@ Browse all past versions → [Releases](https://github.com/OpenSorceryAI/open-me
 | State | Trigger | Size | Purpose |
 |-------|---------|------|---------|
 | **Resting** | Default | 180×32pt — traces the notch cutout exactly | Invisible until you need it |
-| **Expanded** | `ctrl-⌘` | Grows vertically up to 7 lines | Quick prompts, agent chips |
+| **Expanded** | `⌃⌘` | Grows vertically up to 7 lines | Quick prompts, agent chips |
 | **Workstation** | `return` from expanded | 680×440pt panel | Full conversation surface, thread history |
 
 Press `esc` to dismiss from any state.
@@ -68,7 +68,7 @@ Pick an agent from the chip row in the expanded shell, or type to the default (K
 
 ### Why native
 
-- **First paint under 200ms** from `ctrl-⌘` — streaming tokens render as they arrive, nothing blocks the UI thread.
+- **First paint under 200ms** from `⌃⌘` — streaming tokens render as they arrive, nothing blocks the UI thread.
 - **No Electron.** Pure AppKit/SwiftUI with native NSTextView composers, native streaming, native typography.
 - **Keychain-backed credentials** — gateway tokens never hit disk in plaintext.
 - **Threads persist across days.** Conversation history is local and queryable.
