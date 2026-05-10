@@ -89,9 +89,9 @@ The **OpenMeow-vX.Y.Z.dmg** and **OpenMeow.dmg** assets on each release are byte
 
 ## Support
 
-- **Issues / bugs:** open an issue on this repo — [New issue](https://github.com/OpenSorceryAI/open-meow-downloads/issues/new)
-- **Email:** [val@opensorcery.ai](mailto:val@opensorcery.ai)
-- **Homepage:** <https://openmeow.com> *(landing page)*
+- **Issues / bugs:** open an issue on this repo — [New issue](https://github.com/OpenCoven/open-meow-downloads/issues/new)
+- **Email:** [val@opensorcery.ai](mailto:val@opencoven.ai)
+- **Homepage:** <https://openmeow.ai> *(landing page)*
 
 ---
 
@@ -101,8 +101,8 @@ OpenMeow is an **OpenSorceryAI** product — the consumer surface for ambient AI
 
 The product architecture in one sentence: **OpenMeow owns the native surface; TinyFish owns the browser substrate; OpenClaw routes between them.**
 
-- **Company:** [OpenSorceryAI](https://github.com/OpenSorceryAI)
-- **Landing:** <https://openmeow.com>
+- **Company:** [OpenSorceryAI](https://github.com/OpenCoven)
+- **Landing:** <https://openmeow.ai>
 
 ---
 
