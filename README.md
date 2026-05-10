@@ -21,7 +21,7 @@ Every release ships a signed and notarized `.dmg` — Gatekeeper-accepted on fir
 - **Notarized** by Apple and stapled
 - **Evergreen permalink** — the URL above always resolves to the most recent release's `OpenMeow.dmg` asset
 
-Browse all past versions → [Releases](https://github.com/OpenSorceryAI/open-meow-downloads/releases)
+Browse all past versions → [Releases](https://github.com/OpenCoven/open-meow-downloads/releases)
 
 ---
 
